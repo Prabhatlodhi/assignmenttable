@@ -1,0 +1,10 @@
+input{
+    margin: 9px;
+    padding-left: 10px;
+    border-radius: 9px;
+    height: 30px;
+}
+
+.inputWrapper{
+    text-align: center;
+}

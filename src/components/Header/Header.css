@@ -1,0 +1,8 @@
+.header{
+    background-color: aqua;
+    height: 90px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top:15px ;
+    /* border: 10px soild rgb(194, 51, 51); */
+}
