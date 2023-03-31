@@ -70,7 +70,7 @@ const [searchClicked, setSearchClicked] = useState(false);
 
   return (
     <div className="App">
-      <h1>User Details</h1>
+      <h1 className="userDetails">User Details</h1>
       <form onSubmit={handleAddUser}>
         <label>
           Name:
@@ -121,7 +121,7 @@ const [searchClicked, setSearchClicked] = useState(false);
           {selectedUser !== null ? "Update User" : "Add User"}
         </button>
       </form>
-      <button onClick={handleSortByName}>Sort by Name</button>
+      
       <br />
       <div className="inputbox">
       <input type="text" value={searchTerm} onChange={handleSearchByName} placeholder="Search by name" />
@@ -134,7 +134,7 @@ const [searchClicked, setSearchClicked] = useState(false);
       <table>
         <thead>
           <tr>
-            <th>Name</th>
+            <th>Name<button onClick={handleSortByName}>Sort by Name</button></th>
             <th>Last Name</th>
             <th>Email</th>
             <th>PAN Number</th>

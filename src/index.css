@@ -21,8 +21,20 @@ td{
   border: 1px solid black;
 
 }
+
+.App h1{
+text-align: center;
+padding-top: 10px;
+margin-bottom: 40px;
+}
  
 form{
   display: flex;
 
+}
+
+.userDetails{
+  background-color: aqua;
+  height: 80px;
+   
 }
