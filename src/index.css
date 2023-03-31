@@ -3,3 +3,15 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+table tr th{
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
+
+}
+
+/* the table have a sort button which can sort the data alphabetically
+the table have a search bar which can help search the user by name */
