@@ -8,10 +8,21 @@ table tr th{
   border: 1px solid black;
 }
 
+table{
+  margin: 50px auto;
+  width:90%
+}
+
+.inputbox{
+  text-align: center;
+}
+
 td{
   border: 1px solid black;
 
 }
+ 
+form{
+  display: flex;
 
-/* the table have a sort button which can sort the data alphabetically
-the table have a search bar which can help search the user by name */
+}
